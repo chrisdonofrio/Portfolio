@@ -1,0 +1,8 @@
+* {
+	text-transform: lowercase;
+}
+
+h2	{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: red;
+}
