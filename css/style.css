@@ -1,8 +1,122 @@
 * {
 	text-transform: lowercase;
+	font-family: 'Slabo 27px', serif;
+	background-color: black;
+}
+
+h1 a {
+	font-size: 60px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bolder;
+	color: gold;
+	float: right;
+	text-transform: lowercase;
+	text-decoration: none;
+
+}
+
+h1 a:hover {
+	text-decoration: underline;
 }
 
 h2	{
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: red;
+	font-size: 40px;
+	color: dimgray;
+}
+
+p {
+	color: dimgray;
+}
+
+a 	{
+	text-transform: capitalize;
+}
+
+.project-table {
+	background-color: gold;
+}
+
+textarea {
+
+}
+
+ul
+{
+    list-style-type: none;
+    color: dimgray;
+}
+
+.contact_form ul {
+    width: 750px;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 0px;
+    padding: 0px;
+}
+.contact_form li{
+    padding: 12px; 
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+
+.contact_form label {
+    width: 150px;
+    margin-top: 3px;
+    display: inline-block;
+    float: left;
+    padding: 3px;
+}
+.contact_form input {
+    height: 20px; 
+    width: 220px; 
+    padding: 5px 8px;
+    text-transform: none;
+}
+.contact_form textarea {
+	padding: 8px; width: 300px;
+}
+.contact_form button {
+	margin-left: 156px;
+}
+
+textarea {
+	text-transform: none;
+}
+
+nav a {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 30px;
+	color: dimgray;
+	text-transform: lowercase;
+	text-decoration: none;
+	display: inline-block;
+	margin: 20px;
+
+}
+
+nav a:hover {
+	color: gold;
+	border-radius: 8px;
+}
+
+#contact_page .contact_nav,
+#project_page .project_nav,
+#resume_page .resume_nav,
+#blog_page .blog_nav,
+#about_page .about_nav {
+
+	color: gold;
+	padding: 0 2px;
+	font-style: italic;
+	font-weight: bolder;
+
+}
+
+#main_page .header {
+	text-decoration: underline;
+}
+
+table {
+	color: dimgray;
 }
