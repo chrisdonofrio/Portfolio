@@ -8,7 +8,7 @@ h1 a {
 	font-size: 60px;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: bolder;
-	color: gold;
+	color: white;
 	float: right;
 	text-transform: lowercase;
 	text-decoration: none;
@@ -34,7 +34,7 @@ a 	{
 }
 
 .project-table {
-	background-color: gold;
+	background-color: white;
 }
 
 textarea {
@@ -96,7 +96,7 @@ nav a {
 }
 
 nav a:hover {
-	color: gold;
+	color: white;
 	border-radius: 8px;
 }
 
@@ -106,7 +106,7 @@ nav a:hover {
 #blog_page .blog_nav,
 #about_page .about_nav {
 
-	color: gold;
+	color: white;
 	padding: 0 2px;
 	font-style: italic;
 	font-weight: bolder;
