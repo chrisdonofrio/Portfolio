@@ -1,0 +1,95 @@
+/**********************************
+GENERAL
+***********************************/
+
+/* semantic data states! */
+.navbar[data-state=hidden] {
+    visibility: hidden;
+}
+.navbar[data-state=visible] {
+    visibility: visible;
+}
+
+/**********************************
+PROJECTS SCROLLBOX
+***********************************/
+
+#github-scrollbox {
+  margin-top: 10%;
+  margin-left: 10%;
+  overflow-y: scroll;   
+  height: 400px;
+  width: 800px;    
+  position: absolute;
+  }
+
+
+/**********************************
+COLORS
+***********************************/
+
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+.top-nav {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: lowercase;
+}
+
+.navbar-brand {
+  font-size: 40px;
+}
+
+.top-nav-ul {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+
+.vertical-center {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  /*position: absolute;*/
+  font-family: 'Open Sans Condensed', sans-serif;
+  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+  text-transform: lowercase;
+  letter-spacing: -3px;
+  font-style: italic;
+  font-size: 
+}
+
+
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+h6 {
+  font-size: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #eee;
+  text-transform: lowercase;
+display: block;
+}
+
+.navbar-fixed-bottom {
+}

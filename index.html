@@ -2,35 +2,119 @@
 <html>
 <head>
 	<title>chris donofrio</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/home/chris/Documents/RCB_Classwork/Repositories/Portfolio/favicon.ico">
+	<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+<!-- Latest compiled and minified Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="css/main.css" rel="stylesheet">
+		<!-- Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-
-<nav>
-  <a href="about.html" class="about_nav">About</a>
-  <a href="projects.html" class="project_nav">Projects</a>
-  <a href="resume.html" class="resume_nav">Resum&eacute;</a>
-  <a href="blog.html" class="blog_nav">Blog</a>
-  <a href="contact.html" class="contact_nav">Hit Me Up!</a>
-</nav>
-<h1> 
-	<a href="index.html" class="header">Chris Donofrio</a>
-</h1>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-<body id="main_page">
+<body>
+<div class="container"> <!-- main container -->
+<nav class="navbar navbar-inverse navbar-fixed-top" data-state="hidden">
+  <div class="container top-nav">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+		<div class="navbar-brand" href="#">Chris Donofrio.</div>
+    </div>
 
-<h2>Connect</h2>
-		<ul>
-			<li><a href="https://www.github.com/chrisdonofrio">Github</a></li>
-			<li><a href="https://www.linkedin.com/in/crdonofrio">LinkedIn</a></li>
-			<li><a href="https://careers.stackoverflow.com/chrisdonofrio">StackOverflow</a></li>
-			<li><a href="https://twitter.com/chris_donofrio">Twitter</a></li>
-		</ul>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav top-nav-ul">
+        <li class="active"><a href="#">About. <span class="sr-only">(current)</span></a></li>
+        <li><a href="projects.html">Projects.</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resum&eacute;. <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron vertical-center">
+	<div class="container">
+	  <h1>Greetings!</h1>
+
+	  <p>Aspiring web developer and super-dreamer...</p>
+	  <p><a class="btn btn-primary btn-lg btn-jumbotron" href="#" role="button">Learn more</a></p>
+  	</div>
+</div>
 
 
+</div> <!-- main container end -->
+
+<footer>
+    <div class="navbar navbar-inverse navbar-fixed-bottom" data-state="hidden">
+        <div class="container">
+            <div class="navbar-collapse collapse" id="footer-body">
+                <ul class="nav navbar-nav navbar-right">
+						<li><a href="https://twitter.com/#" target="_blank"><span class="fa fa-twitter fa-lg"></span></a></li>
+						<li><a href="https://www.linkedin.com/in/#" target="_blank"><span class="fa fa-linkedin-square fa-lg"></span></a></li>
+						<li><a href="https://github.com/#" target="_blank"><span class="fa fa-github fa-lg"></span></a></li>
+						<li><a href="#myModal" role="button" class="btn btn-contact pull-right" data-toggle="modal">hit me up! <i class="fa fa-envelope"></i></a></li>
+						<li><p>&copy; 2016 Chris Donofrio</p></li>
+                </ul>
+            </div>
+          	<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#footer-body">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul class="footer-bar-btns visible-xs">
+                    <li><a href="#" class="btn" title="History"><i class="fa fa-2x fa-clock-o blue-text"></i></a></li>
+                    <li><a href="#" class="btn" title="Favourites"><i class="fa fa-2x fa-star yellow-text"></i></a></li>
+                    <li><a href="#" class="btn" title="Subscriptions"><i class="fa fa-2x fa-rss-square orange-text"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+	<!-- JS at bottom of page for best rendering -->
+		
+	<!-- jQuery CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	
+<!-- if access offline, fallback to hardcoded jQuery -->
+<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+	
+<!-- latest compiled and minified Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+	<!-- custom JS -->
+<script src="js/scripts.js"></script>
 </body>
 </html>
+
+
+
 
 
 
